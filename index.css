@@ -3,4 +3,34 @@ body {
     background-color: red;
     /* For browsers that do not support gradients */
     background-image: linear-gradient(#5C0029, #F00699);
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#graph {
+    flex: 4;
+}
+
+#inputs {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#inputs div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex: 1;
 }
